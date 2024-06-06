@@ -1,5 +1,5 @@
 var x1, x2,y1,y2, data1, data2, svg1,svg2
-const plot_d3 = function(country_code = 'USA') {
+const plot_d3 = function(country_code = 'all') {
   // set the dimensions and margins of the graph
   var margin = {top: 20, right: 20, bottom: 100, left: 60},
       width = 460 - margin.left - margin.right,
