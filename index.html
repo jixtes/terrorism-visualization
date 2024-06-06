@@ -138,7 +138,7 @@ function ready(error, topo) {
   }
 
   let mouseLeave = function(d) {
-    update_chart('USA')
+    update_chart('all')
     d3.selectAll(".Country")
       .transition()
       .duration(200)
