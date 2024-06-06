@@ -113,7 +113,7 @@ const plot_d3 = function(country_code = 'USA') {
   })
 }
 
-update_chart = function(country_code='AFG'){
+update_chart = function(country_code='all'){
 d3.select("#my_dataviz2").selectAll("*").remove();
 d3.select("#my_dataviz3").selectAll("*").remove();
 plot_d3(country_code)
