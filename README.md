@@ -2,13 +2,14 @@
 
 ## Overview
 
-This repository contains a visualization dashboard that provides an in-depth analysis of terrorism attacks from 1970 to 2017. The dashboard is designed for users in the United States but offers both a national and global perspective on terrorism data. The dashboard presents a range of visualizations including trends, attack types, weapons used, and geographical distribution.
+The dashboard page is implemented using Tablau and D3 and provides an analysis of terrorism attacks from 1970 to 2017. The dashboard is designed for users in the United States but offers both a national and global perspective on terrorism data. The dashboard presents a range of visualizations including trends, attack types, weapons used, and geographical distribution.
 
 ## Demo
 [Click here] (http://jixtes.github.io/terrorism-visualization/)
 
 ## Dashboard Features
-
+- Visuals include bar charts, line charts, chloropleth map and other graphical representations.
+- 
 ### United States Perspective
 
 1. **Trend of Number of Attacks Over the Years**:
@@ -17,7 +18,6 @@ This repository contains a visualization dashboard that provides an in-depth ana
 
 2. **Types of Attacks**:
    - Breakdown of the different types of terrorism attacks that have occurred in the US.
-   - Visuals include bar charts, pie charts, and other graphical representations.
 
 3. **Weapons Used**:
    - Analysis of the various types of weapons used in terrorism attacks in the US.
